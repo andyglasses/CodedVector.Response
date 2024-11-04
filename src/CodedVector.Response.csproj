@@ -10,7 +10,7 @@
     <Description>Common basic response model and methods</Description>
     <Authors>Andy Glass, CodedVector</Authors>
     <Company>CodedVector</Company>
-    <Copyright>MIT</Copyright>
+    <Copyright></Copyright>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/andyglasses/CodedVector.Response</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
@@ -19,14 +19,16 @@
     <Version>1.0.0</Version>
     <EnablePackageValidation>true</EnablePackageValidation>
     <PackageIcon>icon.png</PackageIcon>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <!-- Optional: Detect breaking changes from a previous version -->
     <!-- <PackageValidationBaselineVersion>1.0.0</PackageValidationBaselineVersion> -->
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <PackageProjectUrl>https://github.com/andyglasses/CodedVector.Response</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="..\README.md" Pack="true" PackagePath="" />
-    <None Include="icon.png" Pack="true" PackagePath=""/>
+    <None Include="icon.png" Pack="true" PackagePath="" />
   </ItemGroup>
 
   <ItemGroup>
