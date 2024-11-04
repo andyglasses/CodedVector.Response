@@ -14,19 +14,26 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/andyglasses/CodedVector.Response</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>response;errors;validation</PackageTags>
+    <PackageTags>response;errors;validation;library</PackageTags>
     <Title>Basic Response</Title>
     <Version>1.0.0</Version>
+    <EnablePackageValidation>true</EnablePackageValidation>
+    <PackageIcon>icon.png</PackageIcon>
+    <!-- Optional: Detect breaking changes from a previous version -->
+    <!-- <PackageValidationBaselineVersion>1.0.0</PackageValidationBaselineVersion> -->
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\README.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
+    <None Include="..\README.md" Pack="true" PackagePath="" />
+    <None Include="icon.png" Pack="true" PackagePath=""/>
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="DotNet.ReproducibleBuilds">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="MinVer">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
