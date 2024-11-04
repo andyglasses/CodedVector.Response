@@ -8,6 +8,22 @@
   <PropertyGroup>
     <PackageId>CodedVector.Response</PackageId>
     <Description>Common basic response model and methods</Description>
+    <Authors>Andy Glass, CodedVector</Authors>
+    <Company>CodedVector</Company>
+    <Copyright>MIT</Copyright>g
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/andyglasses/CodedVector.Response</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>response;errors;validation</PackageTags>
+    <Title>Basic Response</Title>
+    <Version>1.0.0</Version>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
