@@ -10,7 +10,7 @@
     <Description>Common basic response model and methods</Description>
     <Authors>Andy Glass, CodedVector</Authors>
     <Company>CodedVector</Company>
-    <Copyright>MIT</Copyright>g
+    <Copyright>MIT</Copyright>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/andyglasses/CodedVector.Response</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
